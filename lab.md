@@ -151,12 +151,6 @@ Run the list VMs sample
 python samples/vsphere/vcenter/vm/list_vms.py -s 'vcenter.sddc-34-218-2-64.vmwarevmc.com' -u 'cloudadmin@vmc.local' -p 'hoEx84v%#r'
 ```
 
-### Verify the new VM is created successfully
-
-```bash
-python samples/vsphere/vcenter/vm/list_vms.py -s 'vcenter.sddc-34-218-2-64.vmwarevmc.com' -u 'cloudadmin@vmc.local' -p 'hoEx84v%#r'
-```
-
 ### VM Power Commands Sample
 
 ```bash
