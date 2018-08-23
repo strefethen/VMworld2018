@@ -133,14 +133,15 @@ python samples/vsphere/vcenter/vm/list_vms.py -h
 The following sample will create a VM from an OVF template and upon completion cleanup and delete the VM:
 
 ```bash
-$ python samples/vmc/sddc/deploy_ovf_template.py -s 'vcenter.sddc-34-218-2-64.vmwarevmc.com' -u 'cloudadmin@vmc.local' -p 'hoEx84v%#r' -v --lib 'basic.ovf'
+$ python samples/vmc/sddc/deploy_ovf_template.py -s 'vcenter.sddc-34-218-2-64.vmwarevmc.com' -u 'cloudadmin@vmc.local' -p 'hoEx84v%#r' -v --lib 'basic.ovf' --vmname 'vmworld2018_1'
 
 vcenter server = vcenter.sddc-34-218-2-64.vmwarevmc.com
 vc username = cloudadmin@vmc.local
 Resource pool ID: resgroup-61
+Folder ID: group-v56
 Library item ID: d89d381d-2a83-47c2-bc63-09ce98295897
 Found an OVF template: vmBV8ly to deploy.
-Deployment successful. Result resource: VirtualMachine, ID: vm-90
+Deployment successful. VM Name: "vmworld2018_1", ID: "vm-101"
 ```
 
 ### Verify the new VM is deployed successfully
@@ -154,7 +155,7 @@ python samples/vsphere/vcenter/vm/list_vms.py -s 'vcenter.sddc-34-218-2-64.vmwar
 ### VM Power Commands Sample
 
 ```bash
-python samples/vsphere/vcenter/vm/power.py -s 'vcenter.sddc-34-218-2-64.vmwarevmc.com' -u 'cloudadmin@vmc.local' -p 'hoEx84v%#r' -n 'VM3'
+python samples/vsphere/vcenter/vm/power.py -s 'vcenter.sddc-34-218-2-64.vmwarevmc.com' -u 'cloudadmin@vmc.local' -p 'hoEx84v%#r' -n '<your_vm_name>'
 ```
 
 ## Exercises
