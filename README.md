@@ -9,6 +9,8 @@
 * Getting Started Using the Python SDK
 * Lab
 
+URL on Github: https://github.com/strefethen/VMworld2018
+
 # Brief Introduction to VMC
 * Developer Center
 * VMC API Explorer
@@ -33,9 +35,17 @@
     * API Reference Documentation (for offline usage) or [here](http://vmware.github.io/vsphere-automation-sdk-python/vsphere/cloud/)
     * Samples
 
-# [Labs](lab.md)
+# [Getting Started with the Python SDK](lab.md)
 
-[vSphere on VMC](https://vcenter.sddc-34-218-2-64.vmwarevmc.com/ui) (Please don't modify SDDC)
+[vSphere on VMC](https://vcenter.sddc-34-218-2-64.vmwarevmc.com/ui) (Please don't modify the SDDC itself, creating VM's is fine)
 
     Username: cloudadmin@vmc.local
     Password: hoEx84v%#r
+
+# VMworld 2018 API/SDK Sessions to Check out
+* Deep Dive: VMWare Cloud on AWS REST APIs [TAM3637U]
+* It's Magic! Automating VMware Cloud on AWS [CODE5622U]
+* Automate Your VMware Cloud on AWS Environment with Paul Gifford [MTE5097U]
+* Developer Automation 101: From vSphere On Premises to VMware Cloud on AWS [HYP1994BU]
+* VMware vSphere Automation and Development - API and SDK [SPL-1911-06SDC_UI]
+* Be a "vCenter server REST API" Rockstar Using Python [CODE5539U]
