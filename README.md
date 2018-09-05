@@ -17,9 +17,7 @@ URL on Github: https://github.com/strefethen/VMworld2018
 * VMC Console API's
 
 # vSphere on VMC
-* [Live instance](https://vcenter.sddc-34-218-2-64.vmwarevmc.com/ui) (Please don't modify SDDC)
-    * Username: cloudadmin@vmc.local
-    * Password: hoEx84v%#r
+The VMC vSphere instance previously provided here has been deleted following VMworld.
 
 # Introduction to vSphere REST API
 * Consume from SDKs, CLI’s
@@ -36,11 +34,6 @@ URL on Github: https://github.com/strefethen/VMworld2018
     * Samples
 
 # [Getting Started with the Python SDK](lab.md)
-
-[vSphere on VMC](https://vcenter.sddc-34-218-2-64.vmwarevmc.com/ui) (Please don't modify the SDDC itself, creating VM's is fine)
-
-    Username: cloudadmin@vmc.local
-    Password: hoEx84v%#r
 
 # VMworld 2018 API/SDK Sessions to Check out
 * Deep Dive: VMWare Cloud on AWS REST APIs [TAM3637U]
